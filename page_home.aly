@@ -1,0 +1,101 @@
+{
+  NestedScrollView,
+  layout_width="fill",
+  layout_height="fill",
+  {
+    LinearLayout,
+    Orientation=1,
+
+    {
+      MaterialCardView,
+      id="bg2",
+      layout_width="90%w",
+      layout_height="25%h",
+      cardBackgroundColor="#00FFFFFF",
+      --strokeWidth="1dp",
+      layout_marginTop="10%h",
+      strokeColor="#00FFFFFF",
+      radius="4dp",
+
+      cardElevation="0dp",
+      layout_margin="5%w",
+      {
+        MaterialCardView,
+        -- id="appshuoming",
+        layout_width="90%w",
+        layout_height="10%h",
+        cardBackgroundColor="#00FFFFFF",
+        strokeWidth="0dp",
+        --strokeColor="#FFEAEAEA",
+        radius="0dp",
+        cardElevation="0dp",
+        layout_marginTop="2%h",
+      },
+      {
+        MaterialCardView,
+        layout_width="28%w",
+        layout_height="28%w",
+        strokeWidth="2dp",
+        cardBackgroundColor="#00FFFFFF",
+        -- strokeColor="#00FFFFFF",
+        cardElevation="0dp",
+        radius="0dp",
+        layout_gravity="center",
+        layout_marginBottom="10%w",
+        {
+          ImageView;
+          src= "icon.png" ;
+          layout_width="match";
+          layout_height="match";
+          scaleType="fitXY";
+          layout_gravity="center",
+        },
+      },
+
+      {TextView,
+        id="gameid",
+        textSize="20sp",
+        layout_marginTop="15%w",
+        text="",
+        Gravity="center",
+        --textColor="#ff2879fe",
+        layout_gravity="center",
+        textStyle="bold",
+      },
+
+    },
+    {
+      MaterialCardView;
+      layout_height="wrap";
+      layout_width="85%w";
+      strokeWidth="0dp",
+      layout_gravity="center";
+      layout_marginBottom="3%h";
+      {
+        MaterialButton;
+        layout_height="55dp";
+        layout_width="fill";
+        text="启动游戏";
+        layout_gravity="center";
+        id="btn1",
+
+      };
+    };
+    {
+      MaterialCardView;
+      layout_height="wrap";
+      layout_width="85%w";
+      strokeWidth="0dp",
+      layout_gravity="center";
+      layout_marginBottom="3%h";
+      {
+        MaterialButton;
+        layout_height="55dp";
+        layout_width="fill";
+        text="安装游戏";
+        layout_gravity="center";
+        id="btn2",
+      };
+    };
+  },
+}
