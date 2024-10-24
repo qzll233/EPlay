@@ -13,5 +13,5 @@
 6. 复制一个Apk作为副本，并改名为launcher.apk，然后放入未改名的Apk的assets文件夹中
 7. 修改Apk的assets文件夹中的init.lua中的appname和packagename为游戏名和第二步的安装包名
 8. 找到解压的游戏文件，找到index.html所在的文件夹，将该文件夹名修改为game，并将该文件夹(game放入Apk的assets文件夹) 此时的index.html应该路径应该是/assets/game/index.html
-9.应该没有了，大概？
+9. 应该没有了，大概？
 后面空了再完善
