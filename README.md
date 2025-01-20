@@ -1,12 +1,7 @@
-<div class="sponsor-banner">
-    <a href="https://yxvm.com" target="_blank">
-        <img src="aaa" alt="YXVM_LOGO" class="logo">
-    </a>
-    <span class="sponsor-text">
-        本站服务器由 
-        <a href="https://yxvm.com" target="_blank" class="sponsor-link">YXVM</a> 赞助
-        <br>宣传语
-    </span>
+<div align="center">
+
+[![yxvm](./resources/yxvm-logo.webp "yxvm")](https://yxvm.com/)
+
 </div>
 
 # EPlay
