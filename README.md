@@ -1,6 +1,6 @@
 <div align="center">
 
-[![yxvm](https://yxvm.com/resources/yxvm-logo.webp "yxvm")]
+[![yxvm](./resources/yxvm-logo.webp "yxvm")](https://yxvm.com/)
 
 </div>
 
