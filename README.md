@@ -1,7 +1,7 @@
 # EPlay
 跟其他启动器比起来，EPlay只是个小玩具
 # 本项目由 [YxVM](https://yxvm.com/) 赞助
-高性能稳定VPS，就选YxVm！
+## 高性能稳定VPS，就选YxVm！
 # EPlay代码请使用reopenlua+运行！
 # 移植教程仅适用于Release中的Apk，其他方法自行摸索
 
